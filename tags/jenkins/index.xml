@@ -17,5 +17,15 @@
   </description>
     </item>
     
+    <item>
+      <title>Выступление на DevOPS митапе в Йошкар-Оле 18.01.2020</title>
+      <link>https://rmuhamedgaliev.dev/posts/devops-jenkins/</link>
+      <pubDate>Mon, 21 Oct 2019 00:28:11 +0300</pubDate>
+      
+      <guid>https://rmuhamedgaliev.dev/posts/devops-jenkins/</guid>
+      <description>Я недавно выступал на DevOPS митапе у нас в городе. И рассказывал как работает Jenkins и Docker агенты. Более подробный гайд я описал в статье на HabraHabr.
+  </description>
+    </item>
+    
   </channel>
 </rss>

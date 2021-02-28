@@ -30,6 +30,13 @@
   </url>
   
   <url>
+    <loc>https://rmuhamedgaliev.dev/posts/</loc>
+    <lastmod>2020-02-02T15:56:05+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://rmuhamedgaliev.dev/post/</loc>
     <lastmod>2020-02-02T15:56:05+03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -65,6 +72,13 @@
   </url>
   
   <url>
+    <loc>https://rmuhamedgaliev.dev/posts/study/</loc>
+    <lastmod>2020-02-02T15:56:05+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://rmuhamedgaliev.dev/post/unversal/</loc>
     <lastmod>2020-02-02T15:24:36+03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -72,7 +86,28 @@
   </url>
   
   <url>
+    <loc>https://rmuhamedgaliev.dev/posts/unversal/</loc>
+    <lastmod>2020-02-02T15:24:36+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rmuhamedgaliev.dev/_about/</loc>
+    <lastmod>2020-02-02T01:40:49+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://rmuhamedgaliev.dev/about/</loc>
+    <lastmod>2020-02-02T01:40:49+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rmuhamedgaliev.dev/_consult/</loc>
     <lastmod>2020-02-02T01:40:49+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -116,6 +151,20 @@
   <url>
     <loc>https://rmuhamedgaliev.dev/post/devops-jenkins/</loc>
     <lastmod>2019-10-21T00:28:11+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rmuhamedgaliev.dev/posts/devops-jenkins/</loc>
+    <lastmod>2019-10-21T00:28:11+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rmuhamedgaliev.dev/_archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
