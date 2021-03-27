@@ -6,7 +6,17 @@
     <description>Recent content on Rinat Muhamedgaliev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Feb 2020 15:56:05 +0300</lastBuildDate><atom:link href="https://rmuhamedgaliev.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jan 2021 00:28:11 +0300</lastBuildDate><atom:link href="https://rmuhamedgaliev.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Мое рабочее место</title>
+      <link>https://rmuhamedgaliev.dev/post/workstation-setup/</link>
+      <pubDate>Sun, 03 Jan 2021 00:28:11 +0300</pubDate>
+      
+      <guid>https://rmuhamedgaliev.dev/post/workstation-setup/</guid>
+      <description>В 2020 году в связи с эпидемией многие стали работать из дома и я был не исключением. Тогда я еще работал руководителем отдела разработки аутсорсинговой компании. Моим инструментом для работы был MacBook Pro Late 2015 15&amp;quot;, а так как мое рабочее место стало стационарным, я решил обзавестись внешним монитором.
+А проблема выбора монитора для MacBook &amp;amp; osX очень распространенная и даже на стайте Apple, есть инструкция с подсказкой. Мой выбор пал на DELL P2415Q Display.</description>
+    </item>
+    
     <item>
       <title>Как строить прозрачные отношения с сотрудником и мотивировать его развиваться</title>
       <link>https://rmuhamedgaliev.dev/post/study/</link>
@@ -18,32 +28,11 @@
     </item>
     
     <item>
-      <title>Как строить прозрачные отношения с сотрудником и мотивировать его развиваться</title>
-      <link>https://rmuhamedgaliev.dev/posts/study/</link>
-      <pubDate>Sun, 02 Feb 2020 15:56:05 +0300</pubDate>
-      
-      <guid>https://rmuhamedgaliev.dev/posts/study/</guid>
-      <description>Про развитие сотрудников Появилось видео моего выступления по развитие сотрудников.
-  </description>
-    </item>
-    
-    <item>
       <title>Эпоха универсалов</title>
       <link>https://rmuhamedgaliev.dev/post/unversal/</link>
       <pubDate>Sun, 02 Feb 2020 15:24:36 +0300</pubDate>
       
       <guid>https://rmuhamedgaliev.dev/post/unversal/</guid>
-      <description>Расшифровка доклада доступна по ссылке.
-Я посмотрел доклад и согласен с докладчиком о необходимости развивать команду в универсальных игроков. Это дает большую гибкость в реализации проектов и так же дает возможность всем попробовать новые роли и получить новые знания. Область деятельности такой команды не ограничена стеком каждого и члена и не сильно ограничена отсутствие одной из ролей в команде.
-Я считаю, что так же в команде должны быть и разработчики которые могут расширять свой технологический стек.</description>
-    </item>
-    
-    <item>
-      <title>Эпоха универсалов</title>
-      <link>https://rmuhamedgaliev.dev/posts/unversal/</link>
-      <pubDate>Sun, 02 Feb 2020 15:24:36 +0300</pubDate>
-      
-      <guid>https://rmuhamedgaliev.dev/posts/unversal/</guid>
       <description>Расшифровка доклада доступна по ссылке.
 Я посмотрел доклад и согласен с докладчиком о необходимости развивать команду в универсальных игроков. Это дает большую гибкость в реализации проектов и так же дает возможность всем попробовать новые роли и получить новые знания. Область деятельности такой команды не ограничена стеком каждого и члена и не сильно ограничена отсутствие одной из ролей в команде.
 Я считаю, что так же в команде должны быть и разработчики которые могут расширять свой технологический стек.</description>
@@ -101,16 +90,6 @@
       <pubDate>Mon, 21 Oct 2019 00:28:11 +0300</pubDate>
       
       <guid>https://rmuhamedgaliev.dev/post/devops-jenkins/</guid>
-      <description>Я недавно выступал на DevOPS митапе у нас в городе. И рассказывал как работает Jenkins и Docker агенты. Более подробный гайд я описал в статье на HabraHabr.
-  </description>
-    </item>
-    
-    <item>
-      <title>Выступление на DevOPS митапе в Йошкар-Оле 18.01.2020</title>
-      <link>https://rmuhamedgaliev.dev/posts/devops-jenkins/</link>
-      <pubDate>Mon, 21 Oct 2019 00:28:11 +0300</pubDate>
-      
-      <guid>https://rmuhamedgaliev.dev/posts/devops-jenkins/</guid>
       <description>Я недавно выступал на DevOPS митапе у нас в городе. И рассказывал как работает Jenkins и Docker агенты. Более подробный гайд я описал в статье на HabraHabr.
   </description>
     </item>

@@ -18,16 +18,6 @@
     </item>
     
     <item>
-      <title>Как строить прозрачные отношения с сотрудником и мотивировать его развиваться</title>
-      <link>https://rmuhamedgaliev.dev/posts/study/</link>
-      <pubDate>Sun, 02 Feb 2020 15:56:05 +0300</pubDate>
-      
-      <guid>https://rmuhamedgaliev.dev/posts/study/</guid>
-      <description>Про развитие сотрудников Появилось видео моего выступления по развитие сотрудников.
-  </description>
-    </item>
-    
-    <item>
       <title>Эпоха универсалов</title>
       <link>https://rmuhamedgaliev.dev/post/unversal/</link>
       <pubDate>Sun, 02 Feb 2020 15:24:36 +0300</pubDate>
@@ -39,32 +29,11 @@
     </item>
     
     <item>
-      <title>Эпоха универсалов</title>
-      <link>https://rmuhamedgaliev.dev/posts/unversal/</link>
-      <pubDate>Sun, 02 Feb 2020 15:24:36 +0300</pubDate>
-      
-      <guid>https://rmuhamedgaliev.dev/posts/unversal/</guid>
-      <description>Расшифровка доклада доступна по ссылке.
-Я посмотрел доклад и согласен с докладчиком о необходимости развивать команду в универсальных игроков. Это дает большую гибкость в реализации проектов и так же дает возможность всем попробовать новые роли и получить новые знания. Область деятельности такой команды не ограничена стеком каждого и члена и не сильно ограничена отсутствие одной из ролей в команде.
-Я считаю, что так же в команде должны быть и разработчики которые могут расширять свой технологический стек.</description>
-    </item>
-    
-    <item>
       <title>Выступление на DevOPS митапе в Йошкар-Оле 18.01.2020</title>
       <link>https://rmuhamedgaliev.dev/post/devops-jenkins/</link>
       <pubDate>Mon, 21 Oct 2019 00:28:11 +0300</pubDate>
       
       <guid>https://rmuhamedgaliev.dev/post/devops-jenkins/</guid>
-      <description>Я недавно выступал на DevOPS митапе у нас в городе. И рассказывал как работает Jenkins и Docker агенты. Более подробный гайд я описал в статье на HabraHabr.
-  </description>
-    </item>
-    
-    <item>
-      <title>Выступление на DevOPS митапе в Йошкар-Оле 18.01.2020</title>
-      <link>https://rmuhamedgaliev.dev/posts/devops-jenkins/</link>
-      <pubDate>Mon, 21 Oct 2019 00:28:11 +0300</pubDate>
-      
-      <guid>https://rmuhamedgaliev.dev/posts/devops-jenkins/</guid>
       <description>Я недавно выступал на DevOPS митапе у нас в городе. И рассказывал как работает Jenkins и Docker агенты. Более подробный гайд я описал в статье на HabraHabr.
   </description>
     </item>
