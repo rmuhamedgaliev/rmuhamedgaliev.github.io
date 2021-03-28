@@ -2,70 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://rmuhamedgaliev.dev/categories/</loc>
-    <lastmod>2021-01-03T00:28:11+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rmuhamedgaliev.dev/tags/dev/</loc>
-    <lastmod>2021-01-03T00:28:11+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rmuhamedgaliev.dev/categories/lifestyle/</loc>
-    <lastmod>2021-01-03T00:28:11+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rmuhamedgaliev.dev/tags/mac/</loc>
-    <lastmod>2021-01-03T00:28:11+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rmuhamedgaliev.dev/post/</loc>
-    <lastmod>2021-01-03T00:28:11+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rmuhamedgaliev.dev/tags/productivity/</loc>
-    <lastmod>2021-01-03T00:28:11+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rmuhamedgaliev.dev/</loc>
-    <lastmod>2021-01-03T00:28:11+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rmuhamedgaliev.dev/tags/</loc>
-    <lastmod>2021-01-03T00:28:11+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://rmuhamedgaliev.dev/post/workstation-setup/</loc>
-    <lastmod>2021-01-03T00:28:11+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://rmuhamedgaliev.dev/tags/bus-factor/</loc>
+    <lastmod>2020-02-02T15:56:05+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rmuhamedgaliev.dev/categories/</loc>
     <lastmod>2020-02-02T15:56:05+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -86,7 +30,28 @@
   </url>
   
   <url>
+    <loc>https://rmuhamedgaliev.dev/post/</loc>
+    <lastmod>2020-02-02T15:56:05+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rmuhamedgaliev.dev/</loc>
+    <lastmod>2020-02-02T15:56:05+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://rmuhamedgaliev.dev/tags/soft-skills/</loc>
+    <lastmod>2020-02-02T15:56:05+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://rmuhamedgaliev.dev/tags/</loc>
     <lastmod>2020-02-02T15:56:05+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
