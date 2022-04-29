@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>java on Rinat Muhamedgaliev</title>
-    <link>https://rmuhamedgaliev.dev/tags/java/</link>
-    <description>Recent content in java on Rinat Muhamedgaliev</description>
+    <title>jackson on Rinat Muhamedgaliev</title>
+    <link>https://rmuhamedgaliev.dev/tags/jackson/</link>
+    <description>Recent content in jackson on Rinat Muhamedgaliev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Apr 2022 23:50:28 +0300</lastBuildDate><atom:link href="https://rmuhamedgaliev.dev/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Apr 2022 23:50:28 +0300</lastBuildDate><atom:link href="https://rmuhamedgaliev.dev/tags/jackson/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jackson маппинг интерфейсов с объектами</title>
       <link>https://rmuhamedgaliev.dev/post/jackson-polymorphic/</link>
@@ -15,16 +15,6 @@
       <guid>https://rmuhamedgaliev.dev/post/jackson-polymorphic/</guid>
       <description>В ходе разработки приходится из JSON получать обобщенный объект. Например у нас есть JSON из API Telegram.
 &amp;#34;old_chat_member&amp;#34;: {  &amp;#34;user&amp;#34;: {  &amp;#34;id&amp;#34;: 1900941618,  &amp;#34;is_bot&amp;#34;: true,  &amp;#34;first_name&amp;#34;: &amp;#34;btdd_test&amp;#34;,  &amp;#34;username&amp;#34;: &amp;#34;btdd_test_bot&amp;#34;  },  &amp;#34;status&amp;#34;: &amp;#34;left&amp;#34; }, &amp;#34;new_chat_member&amp;#34;: {  &amp;#34;user&amp;#34;: {  &amp;#34;id&amp;#34;: 1900941618,  &amp;#34;is_bot&amp;#34;: true,  &amp;#34;first_name&amp;#34;: &amp;#34;btdd_test&amp;#34;,  &amp;#34;username&amp;#34;: &amp;#34;btdd_test_bot&amp;#34;  },  &amp;#34;status&amp;#34;: &amp;#34;member&amp;#34; } Эти объекты похожи, но они могут иметь различные поля внутри, все типы ChatMember схожи по полю status.</description>
-    </item>
-    
-    <item>
-      <title>Java Microprofile</title>
-      <link>https://rmuhamedgaliev.dev/post/java-microprofile/</link>
-      <pubDate>Sat, 01 Jan 2022 23:18:30 +0300</pubDate>
-      
-      <guid>https://rmuhamedgaliev.dev/post/java-microprofile/</guid>
-      <description>Посмотрел классный доклад Дмитрия Александрова о Java Microprofile.
-  </description>
     </item>
     
   </channel>
