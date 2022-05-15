@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>study on Rinat Muhamedgaliev</title>
+    <link>https://rmuhamedgaliev.dev/tags/study/</link>
+    <description>Recent content in study on Rinat Muhamedgaliev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 May 2022 00:14:26 +0300</lastBuildDate><atom:link href="https://rmuhamedgaliev.dev/tags/study/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Courses</title>
+      <link>https://rmuhamedgaliev.dev/post/courses/</link>
+      <pubDate>Mon, 16 May 2022 00:14:26 +0300</pubDate>
+      
+      <guid>https://rmuhamedgaliev.dev/post/courses/</guid>
+      <description>Интересные курсы  DISCLAMER! ⚠️ Этот пост является субъективным мнением автора и не претендует на истину в последней инстанции.
+ Много уделяется внимания курсам и источникам по самообразованию. И на этом рынке много курсов, обещающих помочь . Но большинство призваны вытянуть побольше денег. Хочу поделится с моим мнением о современных методах обучения в мире разработки.
+Jetbrain Academy aka Hyperskill В IT есть известная компания JetBrains. Они создают классные продукты для разработчиков разных направлений, IDE для разных языков и сопутствующие продукты, такие как Space, TeamCity, YouTrack Так же делают и вклад в помощь обучению разработке, делая специальные программы для обучающихся и создавая полезные инструменты.</description>
+    </item>
+    
+  </channel>
+</rss>
