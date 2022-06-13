@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>Управление умной лампой - Rinat Muhamedgaliev</title>
+
+  
+  
+  <meta name="description" content="В 2022 году никого не удивить умными устройствами, например лампа. И если вы вечером садитесь поработать за компьютер, то вы можете захотеть включить свет, но тут есть пути:
+мобильное приложение голосовые ассистенты умные выключатели порталы для умного дома Но все эти этапы требуют внимания и сложный путь для включения света. Я хотел просто кликнуть на иконку и включить или выключить свет, без дополнительных телодвижений.
+В моем распоряжении была лампа Xiaomi Mi Smart LED Bulb Essential (MJDPL01YL) и определяется она как yeelink." />
+  <meta name="author" content="Rinat Muhamedgaliev" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://rmuhamedgaliev.dev/app.min.css" />
+
+  
+  <link rel="preload stylesheet" as="style" href="https://rmuhamedgaliev.dev/an-old-hope.min.css" />
+  <script
+    defer
+    src="https://rmuhamedgaliev.dev/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link rel="preload" as="image" href="https://rmuhamedgaliev.dev/theme.png" />
+
+  
+  <link rel="preload" as="image" href="https://rmuhamedgaliev.dev/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://rmuhamedgaliev.dev/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://rmuhamedgaliev.dev/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.100.2" />
+
+  
+  
+
+  
+  
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-157528596-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  
+  
+  
+  <meta property="og:title" content="Управление умной лампой" />
+<meta property="og:description" content="В 2022 году никого не удивить умными устройствами, например лампа. И если вы вечером садитесь поработать за компьютер, то вы можете захотеть включить свет, но тут есть пути:
+мобильное приложение голосовые ассистенты умные выключатели порталы для умного дома Но все эти этапы требуют внимания и сложный путь для включения света. Я хотел просто кликнуть на иконку и включить или выключить свет, без дополнительных телодвижений.
+В моем распоряжении была лампа Xiaomi Mi Smart LED Bulb Essential (MJDPL01YL) и определяется она как yeelink." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rmuhamedgaliev.dev/post/smart-bulb/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-06-14T00:21:53+03:00" />
+<meta property="article:modified_time" content="2022-06-14T00:21:53+03:00" />
+
+
+  
+  <meta itemprop="name" content="Управление умной лампой">
+<meta itemprop="description" content="В 2022 году никого не удивить умными устройствами, например лампа. И если вы вечером садитесь поработать за компьютер, то вы можете захотеть включить свет, но тут есть пути:
+мобильное приложение голосовые ассистенты умные выключатели порталы для умного дома Но все эти этапы требуют внимания и сложный путь для включения света. Я хотел просто кликнуть на иконку и включить или выключить свет, без дополнительных телодвижений.
+В моем распоряжении была лампа Xiaomi Mi Smart LED Bulb Essential (MJDPL01YL) и определяется она как yeelink."><meta itemprop="datePublished" content="2022-06-14T00:21:53+03:00" />
+<meta itemprop="dateModified" content="2022-06-14T00:21:53+03:00" />
+<meta itemprop="wordCount" content="265">
+<meta itemprop="keywords" content="xiaomi,miio," />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Управление умной лампой"/>
+<meta name="twitter:description" content="В 2022 году никого не удивить умными устройствами, например лампа. И если вы вечером садитесь поработать за компьютер, то вы можете захотеть включить свет, но тут есть пути:
+мобильное приложение голосовые ассистенты умные выключатели порталы для умного дома Но все эти этапы требуют внимания и сложный путь для включения света. Я хотел просто кликнуть на иконку и включить или выключить свет, без дополнительных телодвижений.
+В моем распоряжении была лампа Xiaomi Mi Smart LED Bulb Essential (MJDPL01YL) и определяется она как yeelink."/>
+
+  
+  
+</head>
+
+
+  <body class="not-ready" data-menu="true">
+    <header class="header">
+  
+  <p class="logo">
+    <a class="site-name" href="https://rmuhamedgaliev.dev/">Rinat Muhamedgaliev</a><a class="btn-dark"></a>
+  </p>
+  
+
+  <script>
+    let bodyClx = document.body.classList;
+    let btnDark = document.querySelector('.btn-dark');
+    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkVal = localStorage.getItem('dark');
+
+    let setDark = (isDark) => {
+      bodyClx[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    };
+
+    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
+    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+
+    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
+    sysDark.addEventListener('change', (event) => setDark(event.matches));
+  </script>
+
+  
+  
+  <nav class="menu">
+    
+    <a class="" href="/">Home</a>
+    
+    <a class="" href="/consult/">Consult</a>
+    
+    <a class="" href="/about/">About</a>
+    
+  </nav>
+  
+
+  
+  <nav class="social">
+    
+    <a
+      class="github"
+      style="--url: url(./github.svg)"
+      href="https://github.com/rmuhamedgaliev"
+      target="_blank"
+    ></a>
+    
+  </nav>
+  
+</header>
+
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-title">
+    <p>
+      <time>14 июн. 2022 г.</time>
+      
+      <span>Rinat Muhamedgaliev</span>
+      
+    </p>
+    <h1>Управление умной лампой</h1>
+  </header>
+  <section class="post-content"><p>В 2022 году никого не удивить умными устройствами, например лампа. И если вы вечером садитесь поработать за компьютер, то вы можете захотеть включить свет, но тут есть пути:</p>
+<ul>
+<li>мобильное приложение</li>
+<li>голосовые ассистенты</li>
+<li>умные выключатели</li>
+<li>порталы для умного дома</li>
+</ul>
+<p>Но все эти этапы требуют внимания и сложный путь для включения света. Я хотел просто кликнуть на иконку и включить или выключить свет, без дополнительных телодвижений.</p>
+<p>В моем распоряжении была лампа <strong>Xiaomi Mi Smart LED Bulb Essential (MJDPL01YL)</strong> и определяется она как <strong>yeelink.light.color5</strong>. Для того что бы подружить ее с MacOs нам достаточно иметь на компьютере <a href="https://python-miio.readthedocs.io/en/latest/">python-miio</a> и знать токен устройства Xiaomi. Для получения токена нам необходимо иметь изначально настроенную лампочку в приложении <strong>Mi Home</strong> и установленное приложение <a href="https://github.com/Maxmudjon/Get_MiHome_devices_token">Get_MiHome_devices_token</a>. Это приложение позволяет нам получить список всех устройств на аккаунте и получить их токены для управления. И так имея на компьютере <strong>python-miio</strong> и токен нашей лампы, то можно начать работать с нашей лампой</p>
+<blockquote>
+<p>miiocli yeelight &ndash;ip {DEVICE_IP} &ndash;token {TOKEN} info</p>
+</blockquote>
+<p>Где DEVICE_IP - IP адрес устройства, а TOKEN - токен из <strong>Mi Home</strong>.</p>
+<p>Можете получить примерной такой ответ</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Model: yeelink.light.color5
+</span></span><span style="display:flex;"><span>Hardware version: esp8266
+</span></span><span style="display:flex;"><span>Firmware version: 2.0.8_0022
+</span></span></code></pre></div><p>И теперь мы можем управлять нашей лампой и поменять ее состояние при помощи команды:</p>
+<blockquote>
+<p>miiocli yeelight &ndash;ip {DEVICE_IP} &ndash;token {TOKEN} toggle</p>
+</blockquote>
+<p>Но это все команды выполняются в терминале, а мы хотим это делать запуском приложения на доке MacOs. Для этого просто запускаем Automator -&gt; New Document -&gt; Application -&gt; Run Shell и вставляем наш скрипт:</p>
+<blockquote>
+<p>miiocli yeelight &ndash;ip {DEVICE_IP} &ndash;token {TOKEN} toggle</p>
+</blockquote>
+<p>Теперь нам осталось сделать File -&gt; Export. Вот мы и получили приложение которое в 1 клик включает или отключает лампу.</p>
+</section>
+
+  
+  
+  <footer class="post-tags">
+     
+    <a href="https://rmuhamedgaliev.dev/tags/xiaomi">xiaomi</a>
+     
+    <a href="https://rmuhamedgaliev.dev/tags/miio">miio</a>
+    
+  </footer>
+  
+
+  
+  
+  
+  <nav class="post-nav">
+     
+    <a class="next" href="https://rmuhamedgaliev.dev/post/courses/"><span>Интересные курсы</span><span>→</span></a>
+    
+  </nav>
+  
+
+  
+  
+</article>
+
+</main>
+
+    <footer class="footer">
+  <p>&copy; 2022 <a href="https://rmuhamedgaliev.dev/">Rinat Muhamedgaliev</a></p>
+  <p>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</p>
+  <p>
+    <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper 5.1</a>
+  </p>
+</footer>
+
+  </body>
+</html>

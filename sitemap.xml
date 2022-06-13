@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rmuhamedgaliev.dev/tags/miio/</loc>
+    <lastmod>2022-06-14T00:21:53+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://rmuhamedgaliev.dev/post/</loc>
+    <lastmod>2022-06-14T00:21:53+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://rmuhamedgaliev.dev/</loc>
+    <lastmod>2022-06-14T00:21:53+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://rmuhamedgaliev.dev/tags/</loc>
+    <lastmod>2022-06-14T00:21:53+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://rmuhamedgaliev.dev/tags/xiaomi/</loc>
+    <lastmod>2022-06-14T00:21:53+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://rmuhamedgaliev.dev/post/smart-bulb/</loc>
+    <lastmod>2022-06-14T00:21:53+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://rmuhamedgaliev.dev/categories/</loc>
     <lastmod>2022-05-16T00:14:26+03:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -17,22 +47,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://rmuhamedgaliev.dev/post/</loc>
-    <lastmod>2022-05-16T00:14:26+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://rmuhamedgaliev.dev/</loc>
-    <lastmod>2022-05-16T00:14:26+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://rmuhamedgaliev.dev/tags/study/</loc>
-    <lastmod>2022-05-16T00:14:26+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://rmuhamedgaliev.dev/tags/</loc>
     <lastmod>2022-05-16T00:14:26+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
