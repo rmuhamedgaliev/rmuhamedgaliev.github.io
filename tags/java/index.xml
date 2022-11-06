@@ -6,7 +6,16 @@
     <description>Recent content in java on Rinat Muhamedgaliev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 May 2022 00:14:26 +0300</lastBuildDate><atom:link href="https://rmuhamedgaliev.dev/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Nov 2022 00:00:11 +0300</lastBuildDate><atom:link href="https://rmuhamedgaliev.dev/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Интересное видео о том что будет в Spring Boot 3</title>
+      <link>https://rmuhamedgaliev.dev/post/prepare-spring-3/</link>
+      <pubDate>Sat, 05 Nov 2022 00:00:11 +0300</pubDate>
+      
+      <guid>https://rmuhamedgaliev.dev/post/prepare-spring-3/</guid>
+      <description>Нашел интересный канал SpringDeveloper. Одно из последних видео посвящено нововведениям Spring Boot 3 и Spring Framework 6</description>
+    </item>
+    
     <item>
       <title>Интересные курсы</title>
       <link>https://rmuhamedgaliev.dev/post/courses/</link>

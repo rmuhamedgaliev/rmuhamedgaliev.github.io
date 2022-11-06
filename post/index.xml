@@ -6,16 +6,24 @@
     <description>Recent content in Posts on Rinat Muhamedgaliev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jun 2022 00:21:53 +0300</lastBuildDate><atom:link href="https://rmuhamedgaliev.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Nov 2022 02:03:58 +0300</lastBuildDate><atom:link href="https://rmuhamedgaliev.dev/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Управление умной лампой</title>
-      <link>https://rmuhamedgaliev.dev/post/smart-bulb/</link>
-      <pubDate>Tue, 14 Jun 2022 00:21:53 +0300</pubDate>
+      <title>Idea 2022.3</title>
+      <link>https://rmuhamedgaliev.dev/post/idea-2022.3/</link>
+      <pubDate>Sun, 06 Nov 2022 02:03:58 +0300</pubDate>
       
-      <guid>https://rmuhamedgaliev.dev/post/smart-bulb/</guid>
-      <description>В 2022 году никого не удивить умными устройствами, например лампа. И если вы вечером садитесь поработать за компьютер, то вы можете захотеть включить свет, но тут есть пути:
-мобильное приложение голосовые ассистенты умные выключатели порталы для умного дома Но все эти этапы требуют внимания и сложный путь для включения света. Я хотел просто кликнуть на иконку и включить или выключить свет, без дополнительных телодвижений.
-В моем распоряжении была лампа Xiaomi Mi Smart LED Bulb Essential (MJDPL01YL) и определяется она как yeelink.</description>
+      <guid>https://rmuhamedgaliev.dev/post/idea-2022.3/</guid>
+      <description>Сегодня я решил попробовать посмотреть, что добавили в новей версии Intellij Idea 2022.3 и оказывается после выхода Jetbrains Fleet они обновили UI классической Idea и теперь он выглядит так:
+Jetbrains явно умеют в классный UI на Java и еще раз это доказывают. Вышло очень здорово. 💪</description>
+    </item>
+    
+    <item>
+      <title>Интересное видео о том что будет в Spring Boot 3</title>
+      <link>https://rmuhamedgaliev.dev/post/prepare-spring-3/</link>
+      <pubDate>Sat, 05 Nov 2022 00:00:11 +0300</pubDate>
+      
+      <guid>https://rmuhamedgaliev.dev/post/prepare-spring-3/</guid>
+      <description>Нашел интересный канал SpringDeveloper. Одно из последних видео посвящено нововведениям Spring Boot 3 и Spring Framework 6</description>
     </item>
     
     <item>

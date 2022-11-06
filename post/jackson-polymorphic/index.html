@@ -57,7 +57,7 @@
   <link rel="apple-touch-icon" href="https://rmuhamedgaliev.dev/apple-touch-icon.png" />
 
   
-  <meta name="generator" content="Hugo 0.101.0" />
+  <meta name="generator" content="Hugo 0.105.0">
 
   
   
@@ -94,7 +94,7 @@ if (!doNotTrack) {
 <meta itemprop="description" content="В ходе разработки приходится из JSON получать обобщенный объект. Например у нас есть JSON из API Telegram.
 &#34;old_chat_member&#34;: { &#34;user&#34;: { &#34;id&#34;: 1900941618, &#34;is_bot&#34;: true, &#34;first_name&#34;: &#34;btdd_test&#34;, &#34;username&#34;: &#34;btdd_test_bot&#34; }, &#34;status&#34;: &#34;left&#34; }, &#34;new_chat_member&#34;: { &#34;user&#34;: { &#34;id&#34;: 1900941618, &#34;is_bot&#34;: true, &#34;first_name&#34;: &#34;btdd_test&#34;, &#34;username&#34;: &#34;btdd_test_bot&#34; }, &#34;status&#34;: &#34;member&#34; } Эти объекты похожи, но они могут иметь различные поля внутри, все типы ChatMember схожи по полю status. Логично такой объект иметь как интерфейс, ведь мы не знаем когда и какой ChatMember придет в JSON."><meta itemprop="datePublished" content="2022-04-29T23:50:28+03:00" />
 <meta itemprop="dateModified" content="2022-04-29T23:50:28+03:00" />
-<meta itemprop="wordCount" content="283">
+<meta itemprop="wordCount" content="267">
 <meta itemprop="keywords" content="java,jackson," />
   
   <meta name="twitter:card" content="summary"/>
@@ -211,18 +211,18 @@ if (!doNotTrack) {
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> com.fasterxml.jackson.annotation.JsonTypeInfo<span style="color:#f92672">;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">@JsonTypeInfo</span><span style="color:#f92672">(</span>
-</span></span><span style="display:flex;"><span>        use <span style="color:#f92672">=</span> JsonTypeInfo<span style="color:#f92672">.</span><span style="color:#a6e22e">Id</span><span style="color:#f92672">.</span><span style="color:#a6e22e">NAME</span><span style="color:#f92672">,</span>
-</span></span><span style="display:flex;"><span>        include <span style="color:#f92672">=</span> JsonTypeInfo<span style="color:#f92672">.</span><span style="color:#a6e22e">As</span><span style="color:#f92672">.</span><span style="color:#a6e22e">EXISTING_PROPERTY</span><span style="color:#f92672">,</span>
-</span></span><span style="display:flex;"><span>        property <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;status&#34;</span><span style="color:#f92672">,</span>
-</span></span><span style="display:flex;"><span>        visible <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>        use<span style="color:#f92672">:</span> JsonTypeInfo<span style="color:#f92672">.</span><span style="color:#a6e22e">Id</span><span style="color:#f92672">.</span><span style="color:#a6e22e">NAME</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>        include<span style="color:#f92672">:</span> JsonTypeInfo<span style="color:#f92672">.</span><span style="color:#a6e22e">As</span><span style="color:#f92672">.</span><span style="color:#a6e22e">EXISTING_PROPERTY</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>        property<span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;status&#34;</span><span style="color:#f92672">,</span>
+</span></span><span style="display:flex;"><span>        visible<span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">)</span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">@JsonSubTypes</span><span style="color:#f92672">({</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@JsonSubTypes.Type</span><span style="color:#f92672">(</span>value <span style="color:#f92672">=</span> ChatMemberOwner<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">,</span> name <span style="color:#f92672">=</span> ChatMemberStatus<span style="color:#f92672">.</span><span style="color:#a6e22e">Constants</span><span style="color:#f92672">.</span><span style="color:#a6e22e">CREATOR</span><span style="color:#f92672">),</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@JsonSubTypes.Type</span><span style="color:#f92672">(</span>value <span style="color:#f92672">=</span> ChatMemberAdministrator<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">,</span> name <span style="color:#f92672">=</span> ChatMemberStatus<span style="color:#f92672">.</span><span style="color:#a6e22e">Constants</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ADMINISTRATOR</span><span style="color:#f92672">),</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@JsonSubTypes.Type</span><span style="color:#f92672">(</span>value <span style="color:#f92672">=</span> ChatMemberMember<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">,</span> name <span style="color:#f92672">=</span> ChatMemberStatus<span style="color:#f92672">.</span><span style="color:#a6e22e">Constants</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MEMBER</span><span style="color:#f92672">),</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@JsonSubTypes.Type</span><span style="color:#f92672">(</span>value <span style="color:#f92672">=</span> ChatMemberRestricted<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">,</span> name <span style="color:#f92672">=</span> ChatMemberStatus<span style="color:#f92672">.</span><span style="color:#a6e22e">Constants</span><span style="color:#f92672">.</span><span style="color:#a6e22e">RESTRICTED</span><span style="color:#f92672">),</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@JsonSubTypes.Type</span><span style="color:#f92672">(</span>value <span style="color:#f92672">=</span> ChatMemberLeft<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">,</span> name <span style="color:#f92672">=</span> ChatMemberStatus<span style="color:#f92672">.</span><span style="color:#a6e22e">Constants</span><span style="color:#f92672">.</span><span style="color:#a6e22e">LEFT</span><span style="color:#f92672">),</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@JsonSubTypes.Type</span><span style="color:#f92672">(</span>value <span style="color:#f92672">=</span> ChatMemberBanned<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">,</span> name <span style="color:#f92672">=</span> ChatMemberStatus<span style="color:#f92672">.</span><span style="color:#a6e22e">Constants</span><span style="color:#f92672">.</span><span style="color:#a6e22e">KICKED</span><span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@JsonSubTypes.Type</span><span style="color:#f92672">(</span>value<span style="color:#f92672">:</span> ChatMemberOwner<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">,</span> name<span style="color:#f92672">:</span> ChatMemberStatus<span style="color:#f92672">.</span><span style="color:#a6e22e">Constants</span><span style="color:#f92672">.</span><span style="color:#a6e22e">CREATOR</span><span style="color:#f92672">),</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@JsonSubTypes.Type</span><span style="color:#f92672">(</span>value<span style="color:#f92672">:</span> ChatMemberAdministrator<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">,</span> name<span style="color:#f92672">:</span> ChatMemberStatus<span style="color:#f92672">.</span><span style="color:#a6e22e">Constants</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ADMINISTRATOR</span><span style="color:#f92672">),</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@JsonSubTypes.Type</span><span style="color:#f92672">(</span>value<span style="color:#f92672">:</span> ChatMemberMember<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">,</span> name<span style="color:#f92672">:</span> ChatMemberStatus<span style="color:#f92672">.</span><span style="color:#a6e22e">Constants</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MEMBER</span><span style="color:#f92672">),</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@JsonSubTypes.Type</span><span style="color:#f92672">(</span>value<span style="color:#f92672">:</span> ChatMemberRestricted<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">,</span> name<span style="color:#f92672">:</span> ChatMemberStatus<span style="color:#f92672">.</span><span style="color:#a6e22e">Constants</span><span style="color:#f92672">.</span><span style="color:#a6e22e">RESTRICTED</span><span style="color:#f92672">),</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@JsonSubTypes.Type</span><span style="color:#f92672">(</span>value<span style="color:#f92672">:</span> ChatMemberLeft<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">,</span> name<span style="color:#f92672">:</span> ChatMemberStatus<span style="color:#f92672">.</span><span style="color:#a6e22e">Constants</span><span style="color:#f92672">.</span><span style="color:#a6e22e">LEFT</span><span style="color:#f92672">),</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">@JsonSubTypes.Type</span><span style="color:#f92672">(</span>value<span style="color:#f92672">:</span> ChatMemberBanned<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">,</span> name<span style="color:#f92672">:</span> ChatMemberStatus<span style="color:#f92672">.</span><span style="color:#a6e22e">Constants</span><span style="color:#f92672">.</span><span style="color:#a6e22e">KICKED</span><span style="color:#f92672">)</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">})</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">ChatMember</span> <span style="color:#f92672">{</span>
 </span></span><span style="display:flex;"><span>    ChatMemberStatus <span style="color:#a6e22e">status</span><span style="color:#f92672">();</span>
@@ -260,6 +260,10 @@ if (!doNotTrack) {
 </article>
 
 </main>
+
+    <script src="/js/zoom-image/medium-zoom.min.js" defer></script>
+    <script src="/js/zoom-image/placeholders.js" defer></script>
+    <script src="/js/zoom-image/index.js" defer></script>
 
     <footer class="footer">
   <p>&copy; 2022 <a href="https://rmuhamedgaliev.dev/">Rinat Muhamedgaliev</a></p>
