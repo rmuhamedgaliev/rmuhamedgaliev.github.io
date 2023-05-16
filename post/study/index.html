@@ -25,6 +25,8 @@
 
 
 
+
+
 <html
   class="not-ready text-sm lg:text-base"
   style="--bg: #faf6f1"
@@ -43,13 +45,12 @@
 
   
   <meta name="theme-color" />
+
   
-  <meta name="description" content="Про развитие сотрудников Появилось видео моего выступления по развитие сотрудников.
-  " />
-  <meta
-    name="author"
-    content="Rinat Muhamedgaliev"
-  />
+  
+  
+  <meta name="description" content="Про развитие сотрудников Появилось видео моего выступления по развитие сотрудников." />
+  <meta name="author" content="Rinat Muhamedgaliev" />
   
 
   
@@ -86,7 +87,7 @@
   <link rel="apple-touch-icon" href="https://rmuhamedgaliev.dev/apple-touch-icon.png" />
 
   
-  <meta name="generator" content="Hugo 0.98.0" />
+  <meta name="generator" content="Hugo 0.110.0">
 
   
   
@@ -121,15 +122,12 @@ if (!doNotTrack) {
 }
 </script>
   
-  
-  
   <meta property="og:title" content="Как строить прозрачные отношения с сотрудником и мотивировать его развиваться" />
 <meta property="og:description" content="Статья в поддержку моего доклада про развитие сотрудников внутри компании" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://rmuhamedgaliev.dev/post/study/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2020-02-02T15:56:05+03:00" />
 <meta property="article:modified_time" content="2020-02-02T15:56:05+03:00" />
-
 
   
   <meta itemprop="name" content="Как строить прозрачные отношения с сотрудником и мотивировать его развиваться">
@@ -154,14 +152,18 @@ if (!doNotTrack) {
       href="https://rmuhamedgaliev.dev/"
       >Rinat Muhamedgaliev</a
     >
-    <a
-      class="btn-dark ml-6 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
-    ></a>
+    <div
+      class="btn-dark text-[0] ml-6 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
   </div>
 
-  <a
+  <div
     class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
-  ></a>
+    role="button"
+    aria-label="Menu"
+  ></div>
 
   
   <script>
@@ -222,12 +224,6 @@ if (!doNotTrack) {
       
       <a
         class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/consult/"
-        >Consult</a
-      >
-      
-      <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
         href="/about/"
         >About</a
       >
@@ -241,11 +237,14 @@ if (!doNotTrack) {
     >
       
       <a
-        class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
         style="--url: url(./github.svg)"
-        href=" https://github.com/rmuhamedgaliev "
+        href="https://github.com/rmuhamedgaliev"
         target="_blank"
-      ></a>
+        rel="me"
+      >
+        github
+      </a>
       
     </nav>
     
@@ -254,7 +253,7 @@ if (!doNotTrack) {
 
 
     <main
-      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-20 pb-32 dark:prose-invert"
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-16 pb-24 dark:prose-invert"
     >
       
 
@@ -266,6 +265,8 @@ if (!doNotTrack) {
     <div class="text-sm opacity-60">
       
       <time>2 февр. 2020 г.</time>
+      
+      
       
       
       <span class="mx-1">&middot;</span>
@@ -315,19 +316,22 @@ if (!doNotTrack) {
   <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
     
     <a
-      class="flex w-1/2 items-center p-6 pr-3 no-underline"
+      class="flex w-1/2 items-center rounded-l-md p-6 pr-3 no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
       href="https://rmuhamedgaliev.dev/post/java-microprofile/"
       ><span class="mr-1.5">←</span><span>Java Microprofile</span></a
     >
     
     
     <a
-      class="ml-auto flex w-1/2 items-center justify-end p-6 pl-3 no-underline"
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
       href="https://rmuhamedgaliev.dev/post/unversal/"
       ><span>Эпоха универсалов</span><span class="ml-1.5">→</span></a
     >
     
   </nav>
+  
+
+  
   
 
   
@@ -341,7 +345,7 @@ if (!doNotTrack) {
   class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
 >
   <div class="mr-auto">
-    &copy; 2022
+    &copy; 2023
     <a class="link" href="https://rmuhamedgaliev.dev/">Rinat Muhamedgaliev</a>
   </div>
   <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
@@ -352,7 +356,7 @@ if (!doNotTrack) {
     href="https://github.com/nanxiaobei/hugo-paper"
     rel="noopener"
     target="_blank"
-    >▷ Paper 6</a
+    >Theme Paper</a
   >
 </footer>
 

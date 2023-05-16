@@ -25,6 +25,8 @@
 
 
 
+
+
 <html
   class="not-ready text-sm lg:text-base"
   style="--bg: #faf6f1"
@@ -43,13 +45,13 @@
 
   
   <meta name="theme-color" />
+
+  
+  
   
   <meta name="description" content="В ходе разработки приходится из JSON получать обобщенный объект. Например у нас есть JSON из API Telegram.
-&#34;old_chat_member&#34;: {  &#34;user&#34;: {  &#34;id&#34;: 1900941618,  &#34;is_bot&#34;: true,  &#34;first_name&#34;: &#34;btdd_test&#34;,  &#34;username&#34;: &#34;btdd_test_bot&#34;  },  &#34;status&#34;: &#34;left&#34; }, &#34;new_chat_member&#34;: {  &#34;user&#34;: {  &#34;id&#34;: 1900941618,  &#34;is_bot&#34;: true,  &#34;first_name&#34;: &#34;btdd_test&#34;,  &#34;username&#34;: &#34;btdd_test_bot&#34;  },  &#34;status&#34;: &#34;member&#34; } Эти объекты похожи, но они могут иметь различные поля внутри, все типы ChatMember схожи по полю status." />
-  <meta
-    name="author"
-    content="Rinat Muhamedgaliev"
-  />
+&#34;old_chat_member&#34;: { &#34;user&#34;: { &#34;id&#34;: 1900941618, &#34;is_bot&#34;: true, &#34;first_name&#34;: &#34;btdd_test&#34;, &#34;username&#34;: &#34;btdd_test_bot&#34; }, &#34;status&#34;: &#34;left&#34; }, &#34;new_chat_member&#34;: { &#34;user&#34;: { &#34;id&#34;: 1900941618, &#34;is_bot&#34;: true, &#34;first_name&#34;: &#34;btdd_test&#34;, &#34;username&#34;: &#34;btdd_test_bot&#34; }, &#34;status&#34;: &#34;member&#34; } Эти объекты похожи, но они могут иметь различные поля внутри, все типы ChatMember схожи по полю status. Логично такой объект иметь как интерфейс, ведь мы не знаем когда и какой ChatMember придет в JSON." />
+  <meta name="author" content="Rinat Muhamedgaliev" />
   
 
   
@@ -86,7 +88,7 @@
   <link rel="apple-touch-icon" href="https://rmuhamedgaliev.dev/apple-touch-icon.png" />
 
   
-  <meta name="generator" content="Hugo 0.98.0" />
+  <meta name="generator" content="Hugo 0.110.0">
 
   
   
@@ -121,21 +123,18 @@ if (!doNotTrack) {
 }
 </script>
   
-  
-  
   <meta property="og:title" content="Jackson маппинг интерфейсов с объектами" />
 <meta property="og:description" content="В ходе разработки приходится из JSON получать обобщенный объект. Например у нас есть JSON из API Telegram.
-&#34;old_chat_member&#34;: {  &#34;user&#34;: {  &#34;id&#34;: 1900941618,  &#34;is_bot&#34;: true,  &#34;first_name&#34;: &#34;btdd_test&#34;,  &#34;username&#34;: &#34;btdd_test_bot&#34;  },  &#34;status&#34;: &#34;left&#34; }, &#34;new_chat_member&#34;: {  &#34;user&#34;: {  &#34;id&#34;: 1900941618,  &#34;is_bot&#34;: true,  &#34;first_name&#34;: &#34;btdd_test&#34;,  &#34;username&#34;: &#34;btdd_test_bot&#34;  },  &#34;status&#34;: &#34;member&#34; } Эти объекты похожи, но они могут иметь различные поля внутри, все типы ChatMember схожи по полю status." />
+&#34;old_chat_member&#34;: { &#34;user&#34;: { &#34;id&#34;: 1900941618, &#34;is_bot&#34;: true, &#34;first_name&#34;: &#34;btdd_test&#34;, &#34;username&#34;: &#34;btdd_test_bot&#34; }, &#34;status&#34;: &#34;left&#34; }, &#34;new_chat_member&#34;: { &#34;user&#34;: { &#34;id&#34;: 1900941618, &#34;is_bot&#34;: true, &#34;first_name&#34;: &#34;btdd_test&#34;, &#34;username&#34;: &#34;btdd_test_bot&#34; }, &#34;status&#34;: &#34;member&#34; } Эти объекты похожи, но они могут иметь различные поля внутри, все типы ChatMember схожи по полю status. Логично такой объект иметь как интерфейс, ведь мы не знаем когда и какой ChatMember придет в JSON." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://rmuhamedgaliev.dev/post/jackson-polymorphic/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-04-29T23:50:28+03:00" />
 <meta property="article:modified_time" content="2022-04-29T23:50:28+03:00" />
 
-
   
   <meta itemprop="name" content="Jackson маппинг интерфейсов с объектами">
 <meta itemprop="description" content="В ходе разработки приходится из JSON получать обобщенный объект. Например у нас есть JSON из API Telegram.
-&#34;old_chat_member&#34;: {  &#34;user&#34;: {  &#34;id&#34;: 1900941618,  &#34;is_bot&#34;: true,  &#34;first_name&#34;: &#34;btdd_test&#34;,  &#34;username&#34;: &#34;btdd_test_bot&#34;  },  &#34;status&#34;: &#34;left&#34; }, &#34;new_chat_member&#34;: {  &#34;user&#34;: {  &#34;id&#34;: 1900941618,  &#34;is_bot&#34;: true,  &#34;first_name&#34;: &#34;btdd_test&#34;,  &#34;username&#34;: &#34;btdd_test_bot&#34;  },  &#34;status&#34;: &#34;member&#34; } Эти объекты похожи, но они могут иметь различные поля внутри, все типы ChatMember схожи по полю status."><meta itemprop="datePublished" content="2022-04-29T23:50:28+03:00" />
+&#34;old_chat_member&#34;: { &#34;user&#34;: { &#34;id&#34;: 1900941618, &#34;is_bot&#34;: true, &#34;first_name&#34;: &#34;btdd_test&#34;, &#34;username&#34;: &#34;btdd_test_bot&#34; }, &#34;status&#34;: &#34;left&#34; }, &#34;new_chat_member&#34;: { &#34;user&#34;: { &#34;id&#34;: 1900941618, &#34;is_bot&#34;: true, &#34;first_name&#34;: &#34;btdd_test&#34;, &#34;username&#34;: &#34;btdd_test_bot&#34; }, &#34;status&#34;: &#34;member&#34; } Эти объекты похожи, но они могут иметь различные поля внутри, все типы ChatMember схожи по полю status. Логично такой объект иметь как интерфейс, ведь мы не знаем когда и какой ChatMember придет в JSON."><meta itemprop="datePublished" content="2022-04-29T23:50:28+03:00" />
 <meta itemprop="dateModified" content="2022-04-29T23:50:28+03:00" />
 <meta itemprop="wordCount" content="267">
 <meta itemprop="keywords" content="java,jackson," />
@@ -143,7 +142,7 @@ if (!doNotTrack) {
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Jackson маппинг интерфейсов с объектами"/>
 <meta name="twitter:description" content="В ходе разработки приходится из JSON получать обобщенный объект. Например у нас есть JSON из API Telegram.
-&#34;old_chat_member&#34;: {  &#34;user&#34;: {  &#34;id&#34;: 1900941618,  &#34;is_bot&#34;: true,  &#34;first_name&#34;: &#34;btdd_test&#34;,  &#34;username&#34;: &#34;btdd_test_bot&#34;  },  &#34;status&#34;: &#34;left&#34; }, &#34;new_chat_member&#34;: {  &#34;user&#34;: {  &#34;id&#34;: 1900941618,  &#34;is_bot&#34;: true,  &#34;first_name&#34;: &#34;btdd_test&#34;,  &#34;username&#34;: &#34;btdd_test_bot&#34;  },  &#34;status&#34;: &#34;member&#34; } Эти объекты похожи, но они могут иметь различные поля внутри, все типы ChatMember схожи по полю status."/>
+&#34;old_chat_member&#34;: { &#34;user&#34;: { &#34;id&#34;: 1900941618, &#34;is_bot&#34;: true, &#34;first_name&#34;: &#34;btdd_test&#34;, &#34;username&#34;: &#34;btdd_test_bot&#34; }, &#34;status&#34;: &#34;left&#34; }, &#34;new_chat_member&#34;: { &#34;user&#34;: { &#34;id&#34;: 1900941618, &#34;is_bot&#34;: true, &#34;first_name&#34;: &#34;btdd_test&#34;, &#34;username&#34;: &#34;btdd_test_bot&#34; }, &#34;status&#34;: &#34;member&#34; } Эти объекты похожи, но они могут иметь различные поля внутри, все типы ChatMember схожи по полю status. Логично такой объект иметь как интерфейс, ведь мы не знаем когда и какой ChatMember придет в JSON."/>
 
   
   
@@ -157,14 +156,18 @@ if (!doNotTrack) {
       href="https://rmuhamedgaliev.dev/"
       >Rinat Muhamedgaliev</a
     >
-    <a
-      class="btn-dark ml-6 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
-    ></a>
+    <div
+      class="btn-dark text-[0] ml-6 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
   </div>
 
-  <a
+  <div
     class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
-  ></a>
+    role="button"
+    aria-label="Menu"
+  ></div>
 
   
   <script>
@@ -225,12 +228,6 @@ if (!doNotTrack) {
       
       <a
         class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/consult/"
-        >Consult</a
-      >
-      
-      <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
         href="/about/"
         >About</a
       >
@@ -244,11 +241,14 @@ if (!doNotTrack) {
     >
       
       <a
-        class="h-8 w-8 [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
         style="--url: url(./github.svg)"
-        href=" https://github.com/rmuhamedgaliev "
+        href="https://github.com/rmuhamedgaliev"
         target="_blank"
-      ></a>
+        rel="me"
+      >
+        github
+      </a>
       
     </nav>
     
@@ -257,7 +257,7 @@ if (!doNotTrack) {
 
 
     <main
-      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-20 pb-32 dark:prose-invert"
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-16 pb-24 dark:prose-invert"
     >
       
 
@@ -269,6 +269,8 @@ if (!doNotTrack) {
     <div class="text-sm opacity-60">
       
       <time>29 апр. 2022 г.</time>
+      
+      
       
       
       <span class="mx-1">&middot;</span>
@@ -362,19 +364,22 @@ if (!doNotTrack) {
   <nav class="mt-24 flex rounded-lg bg-black/[3%] text-lg dark:bg-white/[8%]">
     
     <a
-      class="flex w-1/2 items-center p-6 pr-3 no-underline"
+      class="flex w-1/2 items-center rounded-l-md p-6 pr-3 no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
       href="https://rmuhamedgaliev.dev/post/courses/"
       ><span class="mr-1.5">←</span><span>Интересные курсы</span></a
     >
     
     
     <a
-      class="ml-auto flex w-1/2 items-center justify-end p-6 pl-3 no-underline"
+      class="ml-auto flex w-1/2 items-center justify-end rounded-r-md p-6 pl-3 no-underline hover:bg-black/[2%] dark:hover:bg-white/[3%]"
       href="https://rmuhamedgaliev.dev/post/java-microprofile/"
       ><span>Java Microprofile</span><span class="ml-1.5">→</span></a
     >
     
   </nav>
+  
+
+  
   
 
   
@@ -388,7 +393,7 @@ if (!doNotTrack) {
   class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
 >
   <div class="mr-auto">
-    &copy; 2022
+    &copy; 2023
     <a class="link" href="https://rmuhamedgaliev.dev/">Rinat Muhamedgaliev</a>
   </div>
   <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
@@ -399,7 +404,7 @@ if (!doNotTrack) {
     href="https://github.com/nanxiaobei/hugo-paper"
     rel="noopener"
     target="_blank"
-    >▷ Paper 6</a
+    >Theme Paper</a
   >
 </footer>
 
