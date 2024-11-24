@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://rmuhamedgaliev.dev/sitemap.xml

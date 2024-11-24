@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://rmuhamedgaliev.dev/</loc>
+    </url>
+    <url>
+        <loc>https://rmuhamedgaliev.dev/categories/</loc>
+    </url>
+    <url>
+        <loc>https://rmuhamedgaliev.dev/categories/demo/</loc>
+    </url>
+    <url>
+        <loc>https://rmuhamedgaliev.dev/hello/</loc>
+        <lastmod>2017-09-24</lastmod>
+    </url>
+    <url>
+        <loc>https://rmuhamedgaliev.dev/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://rmuhamedgaliev.dev/tags/</loc>
+    </url>
+    <url>
+        <loc>https://rmuhamedgaliev.dev/tags/code/</loc>
+    </url>
+    <url>
+        <loc>https://rmuhamedgaliev.dev/tags/example/</loc>
+    </url>
+</urlset>
